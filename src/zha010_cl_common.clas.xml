@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZHA010_CL_COMMON</CLSNAME>
+    <LANGU>1</LANGU>
+    <DESCRIPT>通用类</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERSION_EXIT_INPUT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>input转换例程</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERSION_EXIT_OUTPUT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>output转换例程</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_PASSWORD</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>接口密码转换</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_XLS_FROM_ITAB</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>通过内表生成XLS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ESB_TOKEN</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>获取ESB Token</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TEXT_TABLE</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>读取文本表数据</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TIMESTAMP</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>获取毫秒级时间戳</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_FIELDCAT</CMPNAME>
+     <LANGU>1</LANGU>
+     <DESCRIPT>设置字段目录</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

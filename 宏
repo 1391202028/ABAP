@@ -1,0 +1,12 @@
+接口日志：宏
+FUNCTION-LOG-BEGIN	0001	include zha010p_log_top.
+FUNCTION-LOG-BEGIN	0002	include zha010p_log_trans_in.
+FUNCTION-LOG-BEGIN	0003	include zha010p_log_begin.
+FUNCTION-LOG-BEGIN	0004	lv$logid$ = lv_zz_log_id.
+FUNCTION-LOG-BEGIN	0005	perform blog(zha010p_log)              *
+FUNCTION-LOG-BEGIN	0006	using lv$logid$ &1.
+FUNCTION-LOG-END	0001	include zha010p_log_trans_out.
+FUNCTION-LOG-END	0002	lv$logid$ = lv_zz_log_id.
+FUNCTION-LOG-END	0003	perform elog(zha010p_log)              *
+FUNCTION-LOG-END	0004	using lv$logid$ &1 &2.
+FUNCTION-LOG-END	0005	include zha010p_log_end.

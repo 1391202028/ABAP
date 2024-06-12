@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>PP模块常用函数</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_PP_001TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_PP_001</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_PP_HANDLE_BOM</FUNCNAME>
+     <SHORT_TEXT>创建&amp;修改&amp;删除BOM</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>IT_DATA</PARAMETER>
+       <TYP>ZTPP0001</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_DATA</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -10,3 +10,5 @@ FUNCTION-LOG-END	0002	lv$logid$ = lv_zz_log_id.
 FUNCTION-LOG-END	0003	perform elog(zha010p_log)              *
 FUNCTION-LOG-END	0004	using lv$logid$ &1 &2.
 FUNCTION-LOG-END	0005	include zha010p_log_end.
+
+编号范围：ZHA010_LOG NUMC 20位 5%

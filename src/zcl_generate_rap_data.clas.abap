@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_rap_data IMPLEMENTATION.
+CLASS ZCL_GENERATE_RAP_DATA IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
         " delete existing entries in the database table
     DELETE FROM ztrap_travel.
@@ -71,5 +73,4 @@ CLASS zcl_generate_rap_data IMPLEMENTATION.
 
     out->write( 'Travel and booking demo data inserted.').
   ENDMETHOD.
-
 ENDCLASS.

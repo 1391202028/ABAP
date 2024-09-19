@@ -7,20 +7,6 @@
      <NAME>ZUI_RAP_TRAVEL_O2</NAME>
      <TYPE>SRVB/SVB</TYPE>
      <DESCRIPTION>Odata service V2</DESCRIPTION>
-     <LINKS>
-      <item>
-       <HREF>/sap/bc/adt/businessservices/odatav2/ZUI_RAP_TRAVEL_O2</HREF>
-       <REL>http://www.sap.com/categories/odatav2</REL>
-       <TYPE>application/vnd.sap.adt.businessservices.odatav2.v2+xml</TYPE>
-       <TITLE>ODATAV2</TITLE>
-      </item>
-      <item>
-       <HREF>/sap/bc/adt/businessservices/testclass</HREF>
-       <REL>http://www.sap.com/categories/testclass</REL>
-       <TYPE>application/vnd.sap.adt.businessservices.testclass.v1+xml</TYPE>
-       <TITLE>TESTCLASS</TITLE>
-      </item>
-     </LINKS>
      <RESPONSIBLE>TIC_GUOWEI</RESPONSIBLE>
      <MASTER_LANGUAGE>ZH</MASTER_LANGUAGE>
     </METADATA>
